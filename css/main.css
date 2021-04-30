@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px;
+}
+.menu-principal {background-color: #003b59;
+                height: 60px;
+                width: auto;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 16px;
+    width: 80%;
+}
+.redes-sociais ul li {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+.header-2 {
+    background-color: #ffffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+    display: inline-block;
+    color: #d7edf8;
+    margin-left: 15px;
+    height: 50px;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover{
+    color: #00bac6;
+}
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
