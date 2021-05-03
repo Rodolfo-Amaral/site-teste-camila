@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
 }
 ul {
-    padding: 0px!important;
+    padding: 0px;
 }
 .menu-principal {background-color: #003b59;
                 height: 60px;
@@ -37,7 +37,7 @@ main, .content {
     padding: 16px;
 }
 .menu-urls{
-    height: 84px;
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 .menu ul li {
@@ -66,17 +66,4 @@ main, .content {
     text-align: center;
     width: 30%;
     float: right;
-}
-.busca input{
-    background-image: url('../img/lupa.png');
-    background-repeat: no-repeat;
-    background-position: 95%;
-    margin-top: 10px;
-    padding: 10px;
-    width: 190px;
-    height: 10px;
-    border: 1px solid #8b8b8b;
-}
-.control-operator{
-    background-image: url("../img/anterior.png");
 }
